@@ -46,7 +46,6 @@ export default {
   data() {
     return {
       interval: 500, // 500 ms is the length of a 1/4 note at 120 bpm
-      // beat: 1,
       counter: 0,
       instruments: [
         { displayName: 'Guitar1', name: 'guitar1' },
@@ -55,7 +54,6 @@ export default {
         { displayName: 'Drums', name: 'drums' }
       ],
       chords: ['Am', 'C', 'Dm', 'Em', 'F', 'G']
-      // activeChord: 'Am'
     };
   },
   computed: mapState(['activeChord', 'beat', 'instrumentsPlayingCount']),

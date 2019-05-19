@@ -10,7 +10,6 @@
 <script lang="js">
 import { mapState } from 'vuex';
 import { Howler, Howl } from 'howler';
-// import VueHowler from 'vue-howler'
 export default {
   props: {
     name: {
@@ -26,9 +25,6 @@ export default {
       type: Number
     }
   },
-  // mixins: {
-    // VueHowler
-  // },
   data() {
     return {
       currentTrack: -1,
