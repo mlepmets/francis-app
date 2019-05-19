@@ -1,5 +1,9 @@
 module.exports = {
-  presets: [
-    '@vue/app'
-  ]
-}
+  presets: ['@vue/app']
+  // compilerOptions: {
+  //   baseUrl: '.',
+  //   paths: {
+  //     'components/*': ['src/components/*']
+  //   }
+  // }
+};
